@@ -89,6 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="MaxHeap.h" />
+    <ClInclude Include="MergeSort.h" />
+    <ClInclude Include="MergeSortBU.h" />
+    <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="QuickSort3Ways.h" />
+    <ClInclude Include="QuickSort_Optimized.h" />
+    <ClInclude Include="SelectionSort.h" />
+    <ClInclude Include="ShellSort.h" />
+    <ClInclude Include="SortTestHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

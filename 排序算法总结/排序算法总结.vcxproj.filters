@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxHeap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSortBU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort_Optimized.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort3Ways.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortTestHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
